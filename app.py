@@ -90,4 +90,4 @@ api.add_resource(CreateRead,"/api", methods=["GET","POST","DELETE"])
 api.add_resource(UpdateDelete,"/api/<id>", methods=["PUT","DELETE"])
 
 if __name__ == '__main__':
-    app.run(debug=True,port=5005)
+    app.run(debug=True)
